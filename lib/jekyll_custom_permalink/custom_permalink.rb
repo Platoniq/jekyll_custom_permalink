@@ -7,7 +7,7 @@ module JekyllCustomPermalink
       # nothing to do, wait for hook
     end
 
-    Jekyll::Hooks.register :documents, :pre_render do |doc|
+    Jekyll::Hooks.register :documents, :post_init do |doc|
       begin
         # check if jekyll can resolve the url template
         doc.url

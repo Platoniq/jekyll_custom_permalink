@@ -1,7 +1,5 @@
 # Jekyll custom permalink
 
-[![Gem Version](https://badge.fury.io/rb/jekyll_custom_permalink.svg)](https://badge.fury.io/rb/jekyll_custom_permalink)
-
 This Jekyll plugin allows you to use custom Front Matter in the `permalink` setting of collections.
 
 ## Installation
